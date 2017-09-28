@@ -1,0 +1,533 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.content {
+    margin-left: 230px;
+    padding-bottom: 50px;
+    background: #edf0f0;
+    height:100%;
+    box-sizing: border-box;
+}
+/*右半部分*/
+.content .top-hea{
+    background: #fff;
+    margin:0 auto;
+    padding:0 25px;
+    height:61px;
+    box-sizing: border-box;
+}
+.content .top-hea .header{
+    height:61px;
+    box-sizing: border-box;
+}
+.content .top-hea .header .header-z{
+    /*height:61px;*/
+    text-align: center;
+    box-sizing: border-box;
+    /*padding:20px 20px 0 0;*/
+}
+.content .top-hea .header .header-z .icon{
+    float: left;
+    line-height: 61px;
+    font-size: 22px;
+    margin-right: 20px;
+}
+.content .top-hea .header .navbar-left{
+    float: left;
+    margin-top: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.content .top-hea .header .navbar-left .icon{
+    position: absolute;
+    top:12px;
+    left:12px;
+    font-size: 14px;
+}
+
+
+.content .top-hea .header .navbar-left .form-control{
+    border: none;
+    font-size: 13px;
+    color: #444444;
+    padding-left: 40px;
+    background: #edf1f2;
+    border-radius: 34px;
+    margin-top: 1px;
+    margin-right: 20px;
+    width:222px;
+    height:35px;
+}
+.content .top-hea .header .nav-ul{
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    width:230px;
+    height:50px;
+}
+.content .top-hea .header .nav-ul li a{
+    float: left;
+    display: block;
+    line-height: 50px;
+    color: #777;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.content .top-hea .header .nav-ul li a{
+    float: left;
+    display: block;
+    line-height: 50px;
+    color: #777;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.content .top-hea .header .nav-ul .ul-li{
+    float: left;
+    display: block;
+    position: relative;
+}
+.content .top-hea .header .nav-ul .ul-li a{
+    line-height: 50px;
+    color: #777;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.content .top-hea .header .ul-right{
+    float: right;
+    box-sizing: border-box;
+}
+.content .top-hea .header .ul-right li{
+    float: left;
+    height:100%;
+    display: inline-block;
+    margin-left: 30px;
+}
+.content .top-hea .header .ul-right li .icon{
+    font-size: 24px;
+    line-height: 50px;
+}
+.content .top-hea .header .ul-right li .li-a{
+    position: relative;
+}
+.content .top-hea .header .ul-right li .li-aa{
+    position: relative;
+}
+
+.content .top-hea .header .ul-right li .xi{
+    position: absolute;
+    font-size:16px;
+    left:20px;
+    top:-12px;
+    color: #817db9;
+}
+.content .top-hea .header .ul-right li .qiang{
+    position: absolute;
+    font-size:16px;
+    left:16px;
+    top:-12px;
+    color: #f4638b;
+}
+
+.content .top-hea .header .ul-right li a{
+    display: block;
+}
+.content .top-hea .header .ul-right .li-s a{
+    font-size: 16px;
+    line-height: 50px;
+}
+.content .top-hea .header .ul-right .li-s .tu-1{
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+}
+/*******************************Dashboard **********************************/
+.wraper{
+    padding:20px 25px;
+    /*min-height: 550px;*/
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+.wraper .page-title{
+    padding: 10px 0px 30px;
+    box-sizing:border-box;
+}
+.wraper .page-title h3{
+    font-size: 24px;
+    color: #797979;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+/***************iconfont******************/
+.wraper .tubi{
+    box-sizing: border-box;
+}
+.wraper .tubi .tubiao-rr{
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:100%;
+    float: left;
+    background: #fff;
+}
+.wraper .tubi .tubiao-rr .panel{
+    box-sizing: border-box;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+
+
+}
+.wraper .tubi .tubiao-rr .panel .h33{
+    background-color: #FFFFFF;
+    border-color: #DDDDDD;
+    padding-bottom: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 1px solid #797979;
+}
+.wraper .tubi .tubiao-rr .panel .h33 .h33-h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.1;
+    color: #797979;
+}
+.wraper .tubi .tubiao-rr .panel .ti-body{
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.wraper .tubi .tubiao-rr .panel .ti-body .body-ti{
+    box-sizing: border-box;color: #797979;
+}
+.wraper .tubi .tubiao-rr .panel .ti-body .body-ti .col-md-3{
+    box-sizing: border-box;
+    line-height: 40px;
+    white-space: nowrap;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:25%;
+    float: left;
+    font-size: 18px;
+}
+.wraper .tubi .tubiao-rr .panel .ti-body .body-ti .col-md-3 .icon{
+   font-size: 18px;line-height: 40px;
+    display: inline-block;
+    width: 40px;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    transition: font-size .2s;
+}
+.wraper .tubi .tubiao-rr .panel .ti-body .body-ti .col-md-3:hover .icon{
+    transform: scale(2);
+}
+/****************footer******************/
+.wraper .tubi .tubiao-rr .medical{
+    box-sizing: border-box;
+}
+.wraper .tubi .tubiao-rr .medical .page-header{
+    box-sizing: border-box;
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.1;padding: 20px 30px;
+    color: #797979;
+}
+
+.wraper .tubi .tubiao-rr .medical .icon-list{
+    box-sizing: border-box;
+}
+.wraper .tubi .tubiao-rr .medical .icon-list .col-md-3{
+    box-sizing: border-box;
+    line-height: 40px;
+    white-space: nowrap;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 25%;
+    float: left;
+    font-size: 16px;
+    color: #797979;
+}
+.wraper .tubi .tubiao-rr .medical .icon-list .col-md-3 i{
+    display: inline-block;
+    width: 40px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    transition: font-size .2s;
+    color: #797979;
+}
+.wraper .tubi .tubiao-rr .medical .icon-list .col-md-3:hover i{
+    transform: scale(2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************footer*********************************************/
+.footer{
+    margin-left: 230px;
+    color: #58666e;
+    padding: 20px 30px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #e6eaed;
+    border-top: 1px solid #ddd;
+    left: 230px;
+    display: block;
+    box-sizing: border-box;
+}
+
+/*左半部分*/
+.leftspace{
+    box-sizing: border-box;
+    overflow-y: auto;
+    background-color: #1a2942;
+    width: 230px;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+.logo{
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.logo .logo-expanded{
+    font-size: 20px;
+    color: #fff;
+    padding: 0px 25px;
+    font-weight: 900;
+}
+.logo .logo-expanded img{
+    vertical-align: middle;
+    border: 0;
+    box-sizing: border-box;
+}
+.logo .logo-expanded .nav-label{
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+/*nav*/
+.navigation{
+    margin: 50px 0px 20px;
+    display: block;
+    box-sizing: border-box;
+}
+.navigation .list-ul{
+    box-sizing: border-box;
+}
+.navigation .list-ul li{
+    box-sizing: border-box;
+    position: relative;
+}
+/*=============================下拉菜单===============================*/
+.navigation .list-ul .limian .list-unstyled{
+    background-color: #162338;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    display: none;
+}
+.navigation .list-ul .limian .list-unstyled .active a{
+    color: #fff;
+    /*padding: 8px 25px 8px 55px;*/
+    /*font-size: 14px;*/
+    /*border-left: 0px solid #75798B;*/
+    /*text-align: left;*/
+    /*display: block;*/
+}
+.navigation .list-ul .limian .list-unstyled li a{
+    color: #75798b;
+    padding: 8px 25px 8px 55px;
+    font-size: 18px;
+    border-left: 0px solid #75798B;
+    text-align: left;
+    display: block;
+}
+.navigation .list-ul .limian .list-unstyled li:hover a{
+    color: #fff;
+}
+/*=============================================================*/
+.navigation .list-ul li:hover a{
+    color: #fff;
+}
+.navigation .list-ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #b4b6bd;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:600;
+    box-sizing: border-box;
+}
+.navigation .list-ul li a .icon{
+    margin-right: 6px;
+    font-size: 20px;
+    width: 25px;
+    float: left;
+    box-sizing: border-box;
+}
+.navigation .list-ul li a .nav-label{
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+/*------------------------------------------------------------------------------------*/
+@media screen and (max-width:1500px){
+
+
+
+
+}
+
+/*------------------------------------------------------------------------------------*/
+@media screen and (max-width:1200px){
+
+
+    .leftspace{
+        display: none;
+    }
+
+    .content {
+        margin-left:0;
+        background: #edf0f0;
+        width:100%;
+    }
+}
+/*-------------------------------------------------------------------------------------------*/
+@media screen and (max-width:1000px) {
+
+    .wraper .tubi .tubiao-rr .panel .ti-body .body-ti .col-md-3{
+
+        width:50%;
+
+    }
+    .wraper .tubi .tubiao-rr .medical .icon-list .col-md-3{
+
+        width: 50%;
+
+    }
+
+
+
+
+}
+
+/*-------------------------------------------------------------------------------------------*/
+@media screen and (max-width:920px){
+
+
+    /*.content .top-hea .header .nav-ul{*/
+    /*display: none;*/
+    /*}*/
+    .content .top-hea .header .ul-right{
+        display: none;
+    }
+
+
+}
+/*-------------------------------------------------------------------------------------------*/
+@media screen and (max-width:750px){
+
+
+}
+/*-------------------------------------------------------------------------------------------*/
+@media screen and (max-width:630px){
+
+
+    .content .top-hea .header .navbar-left{
+        display: none;
+    }
+
+
+    .wraper .tubi .tubiao-rr .panel .ti-body .body-ti .col-md-3{
+
+        width:100%;
+
+    }
+    .wraper .tubi .tubiao-rr .medical .icon-list .col-md-3{
+
+        width: 100%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/*-------------------------------------------------------------------------------------------*/
+@media screen and (max-width:600px){
+
+
+    .content .top-hea .header .ul-right{
+        display: block;
+    }
+    .content .top-hea .header .ul-right li{
+        margin-left: 20px;
+    }
+    .content {
+        margin-left:0;
+        background: #edf0f0;
+        width:100%;
+    }
+    .content .top-hea .header .nav-ul{
+        display: none;
+    }
+
+    .wraper .tubi .tubiao-rr .panel{
+
+        padding: 20px 10px;
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+}
+
+/*-------------------------------------------------------------------------------------------*/
+@media screen and (max-width:400px) {
+
+    .content .top-hea .header .ul-right{
+        display: none;
+    }
+
+}
