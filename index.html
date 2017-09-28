@@ -1,0 +1,570 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>VelonicAdmin</title>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<link href="css/public.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+
+        @font-face {font-family: "iconfont";
+            src: url('font/iconfont.eot'); /* IE9*/
+            src: url('font/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('font/iconfont.woff') format('woff'), /* chrome, firefox */
+            url('font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+            url('font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+        }
+
+        .iconfont {
+            font-family:"iconfont" !important;
+            font-size:16px;
+            font-style:normal;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-stroke-width: 0.2px;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+    </style>
+</head>
+<body>
+<!--右半部分-->
+<section class="content">
+    <!--header-->
+    <header class="top-hea">
+        <header class="header clear">
+            <div class="header-z"><i class="icon iconfont">&#xe501;</i></div>
+            <form role="search" class="navbar-left">
+                <i class="icon iconfont">&#xe60c;</i>
+                <input placeholder="Search..." class="form-control" type="text">
+            </form>
+            <ul class="nav-ul">
+                <li class="ul-li">
+                    <a href="#">English
+                        <img src="images/jiantou.jpg"/>
+                    </a>
+                </li>
+                <li><a href="#">Files</a></li>
+                <li><a href="#">Frontend</a></li>
+            </ul>
+
+            <ul class="ul-right">
+                <li>
+                    <a href="#" class="li-a">
+                        <i class="icon iconfont hui">&#xe654;</i>
+                        <i class="icon iconfont xi">&#xe660;</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="li-aa">
+                        <i class="icon iconfont kai">&#xe632;</i>
+                        <i class="icon iconfont qiang">&#xe60d;</i>
+                    </a>
+                </li>
+                <li class="li-s">
+                    <a href="#">
+                        <img class="tu-1" src="images/avatar-2.jpg"/>
+                        John Deo
+                        <img src="images/jiantou.jpg"/>
+                    </a>
+                </li>
+            </ul>
+        </header>
+    </header>
+    <!--welcome-->
+    <section class="section-wraper">
+        <div class="page-title">
+            <h3 class="title">Welcome !</h3>
+        </div>
+        <!--1-->
+        <div class="row clear">
+            <div class="col-lg-3 col-sm-6">
+                <div class="widget-panel">
+                    <i class="icon iconfont kai">&#xe696;</i>
+                    <h2>50</h2>
+                    <div>Daily Visits</div>
+                </div>
+            </div>
+            <!--2-->
+            <div class="col-lg-3 col-sm-6">
+                <div class="widget-panel2">
+                    <i class="icon iconfont kai">&#xe69f;</i>
+                    <h2>12056</h2>
+                    <div>Sales</div>
+                </div>
+            </div>
+            <!--3-->
+            <div class="col-lg-3 col-sm-6">
+                <div class="widget-panel3">
+                    <i class="icon iconfont kai">&#xe610;</i>
+                    <h2>1268</h2>
+                    <div>New Orders</div>
+                </div>
+            </div>
+            <!--4-->
+            <div class="col-lg-3 col-sm-6">
+                <div class="widget-panel4">
+                    <i class="icon iconfont kai">&#xe5e3;</i>
+                    <h2>145</h2>
+                    <div>New User</div>
+                </div>
+            </div>
+        </div>
+        <!--柱状图-->
+        <div id="tubiao" class="tbiao">
+                <div id="tb-r" class="biaot"></div><!--------图标01--------->
+            <div class="zhexian">
+                <div id="tb-t" class="zhexian-r"></div><!--------图标02--------->
+                <div id="tb-y" class="zhexian-t"></div><!--------图标03--------->
+            </div>
+        </div>
+    </section>
+    <!--聊天-->
+    <div class="chat clearc">
+        <!--聊天01-->
+        <div class="chat-a">
+            <div class="beitai">
+            <div class="hea-div clear">
+                <h3 class="portlet-title">CHAT</h3>
+                <div class="div-icon">
+                    <button type="submit" class="yincang" style="border: none;background: none;">
+                        <i class="icon iconfont">&#xe605;</i>
+                    </button>
+                        <i class="icon iconfont">&#xe615;</i>
+                    <button type="submit" class="yincang01" style="border: none;background: none;">
+                        <i class="icon iconfont">&#xe677;</i>
+                    </button>
+                </div>
+            </div>
+            <!----------------会话框------------------->
+            <div class="huihua">
+                <ul>
+                    <li class="ul-li01">
+                        <div class="chat-avatar">
+                            <img src="images/avatar-2.jpg" alt="male">
+                            <i>10:00</i>
+                        </div>
+                        <div class="conversation-text">
+                            <div class="ctext-wrap">
+                                <i>John Deo</i>
+                                <p>
+                                    Hello!
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="ul-li02">
+                        <div class="chat-avatar">
+                            <img src="images/avatar-3.jpg" alt="male">
+                            <i>10:01</i>
+                        </div>
+                        <div class="conversation-text">
+                            <div class="ctext-wrap">
+                                <i>Smith</i>
+                                <p>
+                                    Hi, How are you? What about our next meeting?
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="ul-li03">
+                        <div class="chat-avatar">
+                            <img src="images/avatar-2.jpg" alt="male">
+                            <i>10:01</i>
+                        </div>
+                        <div class="conversation-text">
+                            <div class="ctext-wrap">
+                                <i>John Deo</i>
+                                <p>
+                                    Yeah everything is fine
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="ul-li04">
+                        <div class="chat-avatar">
+                            <img src="images/avatar-3.jpg" alt="male">
+                            <i>10:02</i>
+                        </div>
+                        <div class="conversation-text">
+                            <div class="ctext-wrap">
+                                <i>Smith</i>
+                                <p>
+                                    Wow that's great
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!--------------搜索---------------->
+                <div class="sousuo">
+                    <div class="sou-r">
+                        <input class="form-control" placeholder="Enter your text" type="text">
+                    </div>
+                    <div class="col-xs-3">
+                        <button type="submit" class="btn btn-info">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--聊天02-->
+        <div class="chat-a">
+            <div class="beitai02">
+            <div class="hea-div clear">
+                <h3 class="portlet-title">TODO</h3>
+                <div class="div-icon">
+                    <button type="submit" class="yincang02" style="border: none;background: none;">
+                        <i class="icon iconfont">&#xe605;</i>
+                    </button>
+                        <i class="icon iconfont">&#xe615;</i>
+                    <button type="submit" class="yincang03" style="border: none;background: none;">
+                        <i class="icon iconfont">&#xe677;</i>
+                    </button>
+                </div>
+            </div>
+            <div class="beitai01">
+            <div class="title">
+                <div class="title-r"><h4>2 of 6 remaining</h4></div>
+                <div class="title-r">
+                    <a href="#">Archive</a>
+                </div>
+            </div>
+            <div class="huig">
+                <ul class="lieb">
+                    <li class="list-itme">
+                        <label class="cr-styled">
+                            <input checked="checked" class="todo-done" type="checkbox">
+                            <i class="fa"></i>
+                        </label>
+                        <span class="todo-text">Build an angular app</span>
+                    </li>
+                    <li class="list-itme">
+                        <label class="cr-styled">
+                            <input checked="" class="todo-done" type="checkbox">
+                            <i class="fa"></i>
+                        </label>
+                        <span class="todo-text">Hehe!! This is looks cool!</span>
+                    </li>
+                    <li class="list-itme">
+                        <label class="cr-styled">
+                            <input checked="" class="todo-done" type="checkbox">
+                            <i class="fa"></i>
+                        </label>
+                        <span class="todo-text">Testing??</span>
+                    </li>
+                    <li class="list-itme">
+                        <label class="cr-styled">
+                            <input checked="" class="todo-done" type="checkbox">
+                            <i class="fa"></i>
+                        </label>
+                        <span class="todo-text">Creating component page</span>
+                    </li>
+                    <li class="list-itme">
+                        <label class="cr-styled">
+                            <input checked="" class="todo-done" type="checkbox">
+                            <i class="fa"></i>
+                        </label>
+                        <span class="todo-text">Build a js based app</span>
+                    </li>
+                    <li class="list-itme">
+                        <label class="cr-styled">
+                            <input checked="" class="todo-done" type="checkbox">
+                            <i class="fa"></i>
+                        </label>
+                        <span class="todo-text">Design One page theme</span>
+                    </li>
+                </ul>
+                <!--------------搜索---------------->
+                <div class="sousuo">
+                    <div class="sou-r">
+                        <input class="form-control" placeholder="Add new todo" type="text">
+                    </div>
+                    <div class="col-xs-3">
+                        <button type="submit" class="btn btn-info">Add</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <!--聊天03-->
+        <div class="chat-a">
+            <div class="beitai04">
+            <div class="hea-div clear">
+                <h3 class="portlet-title">TEAM MEMBERS</h3>
+                <div class="div-icon">
+                    <button type="submit" class="yincang04" style="border: none;background: none;">
+                        <i class="icon iconfont">&#xe605;</i>
+                    </button>
+                        <i class="icon iconfont">&#xe615;</i>
+                    <button type="submit" class="yincang05" style="border: none;background: none;">
+                        <i class="icon iconfont">&#xe677;</i>
+                    </button>
+                </div>
+            </div>
+            <!--------人物列表---------->
+            <div class="enr beitai03">
+                <div class="enr-r">
+                    <ul>
+                        <li class="ren-li">
+                            <a href="" class="m-r-10">
+                                <img src="images/avatar-3.jpg" class="thumb-sm">
+                            </a>
+                            <span class="pull-right">CEO</span>
+                            <a href="">Jonathan Deo</a>
+                        </li>
+                        <li class="ren-li">
+                            <a href="" class="m-r-10">
+                                <img src="images/avatar-4.jpg" class="thumb-sm">
+                            </a>
+                            <span class="pull-right">Webdesigner</span>
+                            <a href="">Doler Perte</a>
+                        </li>
+                        <li class="ren-li">
+                            <a href="" class="m-r-10">
+                                <img src="images/avatar-5.jpg" class="thumb-sm">
+                            </a>
+                            <span class="pull-right">Webdeveloper</span>
+                            <a href="">Jannie Dvis</a>
+                        </li>
+                        <li class="ren-li">
+                            <a href="" class="m-r-10">
+                                <img src="images/avatar-6.jpg" class="thumb-sm">
+                            </a>
+                            <span class="pull-right">Programmer</span>
+                            <a href="">Emma Welson</a>
+                        </li>
+                        <li class="ren-li">
+                            <a href="" class="m-r-10">
+                                <img src="images/avatar-7.jpg" class="thumb-sm">
+                            </a>
+                            <span class="pull-right">Webdeveloper</span>
+                            <a href="">Jannie Dvis</a>
+                        </li>
+                        <li class="ren-li"><a href="" class="m-r-10">
+                            <img src="images/avatar-8.jpg" class="thumb-sm">
+                        </a>
+                            <span class="pull-right">Webdesigner</span>
+                            <a href="">Petere Husen</a></li>
+                        <li class="ren-li"><a href="" class="m-r-10">
+                            <img src="images/avatar-9.jpg" class="thumb-sm">
+                        </a>
+                            <span class="pull-right">Webdeveloper</span>
+                            <a href="">Jannie Dvis</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    2015 © Velonic.
+</footer>
+<!--左半部分-->
+<section class="leftspace">
+    <div class="logo">
+        <a href="index.html" class="logo-expanded">
+            <img src="images/single-logo.png"/>
+            <span class="nav-label">Velonic</span>
+        </a>
+    </div>
+
+    <!--nav-->
+    <nav class="navigation">
+        <ul class="list-ul">
+            <li class="limian">
+                <a href="#">
+                    <i class="icon iconfont">&#xe684;</i>
+                    <span class="nav-label">Dashboard</span>
+                </a>
+                <!--下拉菜单01-->
+                <ul class="list-unstyled">
+                    <li class="active"><a href="#">Dashboard v1</a></li>
+                    <li><a href="#">Dashboard v2</a></li>
+                </ul>
+                <!--下拉菜单-->
+            </li>
+            <li class="limian">
+                <a href="#">
+                    <i class="icon iconfont">&#xe641;</i>
+                    <span class="nav-label">UI Elements</span>
+                </a>
+                <!--下拉菜单02-->
+                <ul class="list-unstyled">
+                    <li><a href="#">Typography</a></li>
+                    <li><a href="#">Buttons</a></li>
+                    <li><a href="#">Icons</a></li>
+                    <li><a href="#">Panels</a></li>
+                    <li><a href="#">Tabs &amp; Accordions</a></li>
+                    <li><a href="#">Modals</a></li>
+                    <li><a href="#">BS Elements</a></li>
+                    <li><a href="#">Progress Bars</a></li>
+                    <li><a href="#">Notification</a></li>
+                    <li><a href="#">Sweet-Alert</a></li>
+                </ul>
+                <!--下拉菜单-->
+            </li>
+            <li class="limian">
+                <a href="#">
+                    <i class="icon iconfont">&#xe622;</i>
+                    <span class="nav-label">Components</span>
+                </a>
+                <!--下拉菜单03-->
+                <ul class="list-unstyled">
+                    <li><a href="#">Grid</a></li>
+                    <li><a href="#">Portlets</a></li>
+                    <li><a href="#">Widgets</a></li>
+                    <li><a href="#">Nesteble</a></li>
+                    <li><a href="#">Calendar</a></li>
+                </ul>
+                <!--下拉菜单-->
+            </li>
+            <li class="limian">
+                <a href="#">
+                    <i class="icon iconfont">&#xe633;</i>
+                    <span class="nav-label">Forms</span>
+                </a>
+                <!--下拉菜单04-->
+                <ul class="list-unstyled">
+                    <li><a href="#">General Elements</a></li>
+                    <li><a href="#">Form Validation</a></li>
+                    <li><a href="#">Advanced Form</a></li>
+                    <li><a href="#">Form Wizard</a></li>
+                    <li><a href="#">WYSIWYG Editor</a></li>
+                    <li><a href="#">Code Editors</a></li>
+                    <li><a href="#">Multiple File Upload</a></li>
+                    <li><a href="#">Image Crop</a></li>
+                </ul>
+                <!--下拉菜单-->
+            </li>
+            <li class="limian">
+                <a href="#">
+                    <i class="icon iconfont">&#xe631;</i>
+                    <span class="nav-label">Data Tables</span>
+                </a>
+                <!--下拉菜单05-->
+                <ul class="list-unstyled">
+                    <li><a href="#">Basic Tables</a></li>
+                    <li><a href="#">Data Table</a></li>
+                </ul>
+                <!--下拉菜单-->
+            </li>
+            <li class="limian">
+                <a href="#">
+                    <i class="icon iconfont">&#xe68a;</i>
+                    <span class="nav-label">Charts</span>
+                </a>
+                <!--下拉菜单06-->
+                <ul class="list-unstyled">
+                    <li><a href="#">Morris Chart</a></li>
+                    <li><a href="#">Chartjs</a></li>
+                    <li><a href="#">Flot Chart</a></li>
+                    <li><a href="#">Rickshaw Chart</a></li>
+                    <li><a href="#">C3 Chart</a></li>
+                    <li><a href="#">Other Chart</a></li>
+                </ul>
+                <!--下拉菜单-->
+            </li>
+            <li class="limian">
+                <a href="#">
+                    <i class="icon iconfont">&#xe66d;</i>
+                    <span class="nav-label">Mail</span>
+                </a>
+                <!--下拉菜单07-->
+                <ul class="list-unstyled">
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">Compose Mail</a></li>
+                    <li><a href="#">View Mail</a></li>
+                </ul>
+                <!--下拉菜单-->
+            </li>
+            <li class="limian">
+                <a href="#">
+                    <i class="icon iconfont">&#xe647;</i>
+                    <span class="nav-label">Maps</span>
+                </a>
+                <!--下拉菜单08-->
+                <ul class="list-unstyled">
+                    <li><a href="#"> Google Map</a></li>
+                    <li><a href="#"> Vector Map</a></li>
+                </ul>
+                <!--下拉菜单-->
+            </li>
+            <li class="limian">
+                <a href="#">
+                    <i class="icon iconfont">&#xe636;</i>
+                    <span class="nav-label">Pages</span>
+                </a>
+                <!--下拉菜单09-->
+                <ul class="list-unstyled">
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Timeline</a></li>
+                    <li><a href="#">Invoice</a></li>
+                    <li><a href="#">Contact-list</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Recover Password</a></li>
+                    <li><a href="#">Lock Screen</a></li>
+                    <li><a href="#">Blank Page</a></li>
+                    <li><a href="#">404 Error</a></li>
+                    <li><a href="#">404 alt</a></li>
+                    <li><a href="#">500 Error</a></li>
+                </ul>
+                <!--下拉菜单-->
+            </li>
+        </ul>
+    </nav>
+</section>
+
+
+
+
+
+
+</body>
+<script src="js/res.js"></script>
+<script src="js/tubiao.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/xialacaidan.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $(".yincang").click(function(){
+            $(".huihua").toggle();
+
+        });
+        $(".yincang01").click(function(){
+            $(".beitai").toggle();
+
+        });
+        $(".yincang02").click(function(){
+            $(".beitai01").toggle();
+
+        });
+        $(".yincang03").click(function(){
+            $(".beitai02").toggle();
+
+        });
+        $(".yincang04").click(function(){
+            $(".beitai03").toggle();
+
+        });
+        $(".yincang05").click(function(){
+            $(".beitai04").toggle();
+
+        });
+         $(".header-z").click(function(){
+             $(".leftspace").toggle();
+             $(".header-z").toggle();
+             $(".content").css("margin-left","0");
+             $(".footer").css("margin-left","0");
+
+         });
+
+    });
+</script>
+</html>
